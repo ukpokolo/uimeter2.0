@@ -1,0 +1,30 @@
+.results-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .receipt {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .receipt h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .item-label {
+    font-weight: bold;
+  }
+  

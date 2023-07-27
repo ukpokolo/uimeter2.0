@@ -1,0 +1,38 @@
+
+.hero-section{
+    background-image: url(../../assets/bg-woman-phone-dog.jpg);
+    padding: 1rem;
+    color: #fff;
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: multiply;
+    
+
+    
+}
+
+.hero-section > *{
+    max-width: 13rem;
+}
+
+h1{
+    font-size: 23px;
+}
+
+.hero-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero-form input{
+    border: none;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.hero-login-btn{
+    background-color: #2856c3;
+}

@@ -1,0 +1,18 @@
+
+.services{
+    padding: 1rem;
+}
+
+.services-con-top{
+    font-weight: bolder;
+}
+
+.services-wrap i{
+    background-color: #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.services-wrap :nth-child(2){
+    font-weight: bolder;
+}

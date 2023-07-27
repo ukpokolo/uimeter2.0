@@ -1,0 +1,35 @@
+.OrderNav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .OrderNav li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .OrderNav li.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  .tab-text {
+    display: inline-block;
+    margin-left: 1rem;}
+  
+  @media (max-width: 768px) {
+    .tab-text {
+      display: none;
+    }
+
+    .OrderNav li{
+        background-color: red;
+        min-width:  5rem;
+        margin: 0 auto;
+
+
+    }}
+  
